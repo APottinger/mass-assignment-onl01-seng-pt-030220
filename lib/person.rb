@@ -6,3 +6,6 @@ class Person
     attributes.each {|key, value| self.send(("#{key}="), value)}
   end
 end
+
+sophie = Person.new 
+sophie.send("name=", "Sophie")
