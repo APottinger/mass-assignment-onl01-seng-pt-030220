@@ -7,5 +7,6 @@ class Person
   end 
 end
 
-bob = Person.new.send("name=", "Bob")
+bob = Person.new
+bob.send("name=", "Bob")
 
