@@ -7,6 +7,6 @@ class Person
   end 
 end
 
-sophie = User.new
+sophie = Person.new
 sophie.send("name=", "Sophie")
 
